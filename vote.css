@@ -1,0 +1,54 @@
+body .formulaire2 {
+	
+	display: none;
+
+}
+h1 {
+	color: white;
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+.tete{
+	 background-color: crimson;
+    margin: 50px;
+    border-radius: 40px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+
+
+}
+body{
+color:black;
+background-color:white;
+background-image:url(imagevote.jpg);
+margin:0;
+}
+.veri{
+	display: inline-block;
+  padding: 5px 10px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;	
+  text-decoration: none;
+  outline: none;
+  color: black;
+  border: none;
+  border-radius: 15px;
+  
+   background-color: white;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
