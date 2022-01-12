@@ -36,4 +36,5 @@ function check(){
    z.src = "imagevote.jpg"; 
   document.body.background=z.src; 
 }
+
 }
